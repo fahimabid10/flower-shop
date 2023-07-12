@@ -19,15 +19,16 @@
 }
 
 .text-descripton {
-    color:gray;
+    color: gray;
     font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
-.btn-primary{
+
+.btn-primary {
     background: #E55473;
-    border-radius: 8px; 
+    border-radius: 8px;
     padding: 20px 43px;
     color: white;
     font-size: 20px;
@@ -35,53 +36,63 @@
     border: none;
 
 }
+
 .flower-container {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 
 }
-.flower-texts{
+
+.flower-texts {
     text-align: center;
 }
-.flower-text{
+
+.flower-text {
     font-weight: 900px;
 }
-.flower{
+
+.flower {
     height: 428px;
     width: 310px;
-    padding: 110px 76px 0px 76px ;
+    padding: 110px 76px 0px 76px;
 
 }
-#flower1{
-    background-color:rgba(167, 33, 98, 0.15) ;
+
+#flower1 {
+    background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
     margin-right: 40px;
-   
+
 }
-#flower2{
-    background-color:rgba(5, 151, 160, 0.15);
-    border-radius: 300px 300px 0px 0px;
-    margin-right: 40px;
-}
-#flower3{
-    background-color:rgba(71, 125, 17, 0.15) ;
+
+#flower2 {
+    background-color: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
     margin-right: 40px;
 }
-.contact-container{
+
+#flower3 {
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-right: 40px;
+}
+
+.contact-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color:rgba(39, 39, 39, 0.05) ;
+    background-color: rgba(39, 39, 39, 0.05);
     margin: 128px 240px 128px 240px;
     text-align: center;
-    padding: 86px 175px 86px 175px ;
-    
+    padding: 86px 175px 86px 175px;
+
 }
-.title-text{
+
+.title-text {
     font-weight: 800px;
 }
-.deal-container{
+
+.deal-container {
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: space-around;
@@ -92,3 +103,46 @@
 
 }
 
+.insta-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+
+}
+
+.intas-img {
+    width: 342px;
+    height: 396px;
+}
+
+.insta-next {
+    margin-right: 24px;
+
+}
+
+.insta-text {
+    text-align: center;
+}
+
+.footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 128px 0px 128px 0px;
+
+}
+
+.text-color {
+    color: white;
+}
+
+p {
+    color: gray;
+}
+
+.back-img {
+    background-image: url("../assets/Rectangle\ 9.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
