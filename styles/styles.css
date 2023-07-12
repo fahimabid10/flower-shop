@@ -1,0 +1,49 @@
+/* header style */
+.header {
+    background-color: rgba(229, 84, 115, 0.10);
+
+}
+
+.header-first {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sec-class {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-descripton {
+    color:gray;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn-primary{
+    background: #E55473;
+    border-radius: 8px; 
+    padding: 20px 43px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+
+}
+.flower-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.flower-texts{
+    text-align: center;
+}
+.flower{
+    height: 428px;
+    width: 310px;
+
+}
